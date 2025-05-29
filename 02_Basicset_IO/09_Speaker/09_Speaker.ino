@@ -15,14 +15,45 @@ const int spkrPin = 3; //3:ConnectorA 4:ConnectorB
 #define octDO 523.251
 
 void playmusic(){
+  
+
   ledcWriteTone(spkrPin, DO);
-  delay(250);
+  delay(1000);
   ledcWriteTone(spkrPin, RE);
-  delay(250);
+  delay(1000);
   ledcWriteTone(spkrPin, MI);
-  delay(250);
+  delay(1000);
   ledcWriteTone(spkrPin, 0); // no sound
-  delay(250);
+  delay(1000);
+
+  ledcWriteTone(spkrPin, DO);
+  delay(1000);
+  ledcWriteTone(spkrPin, RE);
+  delay(1000);
+  ledcWriteTone(spkrPin, MI);
+  delay(1000);
+  ledcWriteTone(spkrPin, 0); // no sound
+  delay(1000);
+
+  ledcWriteTone(spkrPin, SO);
+  delay(1000);
+  ledcWriteTone(spkrPin, MI);
+  delay(1000);
+  ledcWriteTone(spkrPin, RE);
+  delay(1000);
+  ledcWriteTone(spkrPin, DO);
+  delay(1000);
+  ledcWriteTone(spkrPin, RE);
+  delay(1000);
+  ledcWriteTone(spkrPin, ME);
+  delay(1000);
+  ledcWriteTone(spkrPin, RE);
+  delay(1000);
+  ledcWriteTone(spkrPin, 0); // no sound
+  delay(1000);
+
+
+
 }
 
 void setup() {
